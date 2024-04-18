@@ -12,7 +12,49 @@ public class Circle {
 
 	
 
-	  public void show() {
+	  public double getX() {
+		return x;
+	}
+
+
+
+	public void setX(double x) {
+		this.x = x;
+	}
+
+
+
+	public double getY() {
+		return y;
+	}
+
+
+
+	public void setY(double y) {
+		this.y = y;
+	}
+
+
+
+	public int getRadius() {
+		return radius;
+	}
+
+
+
+	public void setRadius(int radius) {
+		this.radius = radius;
+	}
+
+
+
+	public void show() {
 	        System.out.printf("(%f,%f)%d\n", x, y, radius);
 	    }
+	  
+	public double getArea() {
+		return Math.PI *radius;
+		
+	}
+	
 }
