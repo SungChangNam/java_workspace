@@ -24,14 +24,6 @@ public class Q1between {
 	
 	
 }
-	```    
 
+	
 
-```
-	
-	
-	
-	
-	
-	
-}

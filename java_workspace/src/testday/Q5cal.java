@@ -15,22 +15,22 @@ public class Q5cal {
         case '+':
             Add add = new Add();
             add.setValue(num1, num2);
-            System.out.println(add.calculate());
+            System.out.print(add.calculate());
             break;
         case '-':
             Sub sub = new Sub();
             sub.setValue(num1, num2);
-            System.out.println(sub.calculate());
+            System.out.print(sub.calculate());
             break;
         case '*':
             Mul mul = new Mul();
             mul.setValue(num1, num2);
-            System.out.println(mul.calculate());
+            System.out.print(mul.calculate());
             break;
         case '/':
             Div div = new Div();
             div.setValue(num1, num2);
-            System.out.println(div.calculate());
+            System.out.print(div.calculate());
             break;
         }
     }
@@ -46,6 +46,7 @@ class Add {
     }
 
     int calculate() {
+    	System.out.println(a +"-"+b );
         return a + b;
     }
 }
